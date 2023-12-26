@@ -1,0 +1,12 @@
+#heading{
+    color: red;
+    background-color: blue;
+}
+.textColor{
+    background-color: blueviolet;
+    font-family: cursive;
+}
+h5,p{
+    color:red;
+    font-family: cursive;
+}
