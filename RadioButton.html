@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+</head>
+<body>
+    <form action="SubmittedForm.html" method="get">
+
+
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" placeholder="username" required><br><br>
+
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="email" required><br><br>
+
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" placeholder="password" required><br><br>
+
+
+        <p>Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male" placeholder="male" require><br>
+        <label for="male">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female" placeholder="female"><br>
+        <label for="Others">Others</label>
+        <input type="radio" name="gender" id="Others" value="Others" placeholder="Others" required><br><br>
+
+
+        <label for="age-group">Select your age group</label>
+        <select id="age-group" name="age-group" placeholder="age-group" required>
+            <option value="5-10">5-10</option>
+            <option value="10-15">10-15</option>
+            <option value="15-20">15-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-60">30-60</option>
+        </select><br><br>
+
+        
+        <p>Write something about yourself.</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea><br><br>
+
+
+        <input type="File" name="" id=""><br><br>
+
+
+        <input type="submit" value="Sign in">
+    
+    </form>
+</body>
+</html>
